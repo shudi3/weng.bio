@@ -10,7 +10,7 @@
 <body>
   <div id="layout-content" style="margin-top:25px">
     <div class="profile-header">
-      <div class="profile-info">
+      <div class="profile-text">
         <div id="toptitle"><h1>Shudi Weng</h1></div>
         <h3>Ph.D. Student</h3>
         <p>
@@ -23,14 +23,8 @@
           <a href="Shudi_Weng_CV.pdf">[CV]</a>
         </p>
       </div>
-
       <div class="profile-photo-wrap">
-        <img
-          class="profile-photo"
-          src="photo.jpg"
-          alt="Shudi Weng"
-          onerror="this.onerror=null;this.src='photo-placeholder.svg';"
-        >
+        <img class="profile-photo" src="photo.jpg" alt="Shudi Weng" onerror="this.parentElement.style.display='none'">
       </div>
     </div>
 
@@ -47,6 +41,7 @@
     <section data-markdown="service.md"></section>
     <section data-markdown="experience.md"></section>
     <section data-markdown="teaching.md"></section>
+    <section data-markdown="supervision.md"></section>
 
     <div id="footer">
       <div id="footer-text">© <span id="year"></span> Shudi Weng</div>

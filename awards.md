@@ -1,4 +1,4 @@
-## Awards & Grants
+## Awards and Grants
 
 - Travel Grant from General Travel Foundations, KTH, Sweden — **2026**
 - Travel Grant from EECS school's foundations, KTH, Sweden — **2025**

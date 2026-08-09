@@ -1,65 +1,52 @@
-# Shudi Weng — Markdown-driven GitHub Pages site
+# Shudi Weng — flat Markdown GitHub Pages site
 
-This repository is intentionally flat: **no subfolders are required**.
+This site is intentionally flat: every file lives in the repository root and there are no subfolders.
 
 ## Homepage section order
 
-The homepage displays:
+1. Biography — `biography.md`
+2. Education — `education.md`
+3. Publications — `publications.md` (homepage shows the latest 10)
+4. Awards and Grants — `awards.md`
+5. Talks — `talks.md`
+6. Service — `service.md`
+7. Work Experience — `experience.md`
+8. Teaching — `teaching.md`
+9. Supervision — `supervision.md`
 
-1. Biography
-2. Education
-3. Publications
-4. Awards & Grants
-5. Talks
-6. Service
-7. Work Experience
-8. Teaching
+## Profile photo
 
-Each section is maintained in its own root-level Markdown file.
-
-## Files to edit
-
-- `biography.md`
-- `education.md`
-- `publications.md`
-- `awards.md`
-- `talks.md`
-- `service.md`
-- `experience.md`
-- `teaching.md`
-
-## Photo
-
-Upload your portrait to the repository root and name it exactly:
+Add your portrait to the repository root and name it exactly:
 
 `photo.jpg`
 
-It will automatically appear at the top-right of the homepage. Until that file
-exists, the site displays `photo-placeholder.svg`.
-
-For best results, use a portrait-oriented image. The page crops it to a
-160 × 200 px frame on desktop.
+The homepage will display it at the top-right. A portrait-oriented crop works best. If `photo.jpg` is absent, the photo area is automatically hidden rather than showing a broken image.
 
 ## Publications
 
-Maintain only one source file: `publications.md`.
+Maintain all publications in `publications.md`, newest first.
 
-Put the newest publication first. The homepage automatically shows only the
-first 10 items and provides a `[Full publication list]` link.
+- `index.html` automatically shows only the first/latest 10 entries.
+- The `[Full publication list]` link opens `publications.html`, which displays the entire `publications.md` file.
 
-`publications.html` renders the complete `publications.md` file, so you never
-need to maintain two publication lists.
+You therefore only need to edit one publication source.
 
-## Deploy
+## Deploy with GitHub Pages
 
-In GitHub:
+Keep all files in the repository root and configure:
 
-**Settings → Pages → Build and deployment**
+- Source: **Deploy from a branch**
+- Branch: **main**
+- Folder: **/(root)**
 
-Use:
+After each commit to `main`, GitHub Pages will redeploy the site.
 
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/(root)`
+## Local preview
 
-Commit and push changes to `main`; GitHub Pages will redeploy automatically.
+Because Markdown is loaded with JavaScript, use a small local web server instead of double-clicking `index.html`:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
