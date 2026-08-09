@@ -2,10 +2,10 @@
 
 - **Reviewer**
 
-***Journal***
+ - ***Journal***
  JSAC, TCOM
   
-***Conference***
+ - ***Conference***
 NeurIPS, GLOBECOM, ICC, ITW
 
 - **Organizing Committee, Conference & Workshops**, *2026*  
