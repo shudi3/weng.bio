@@ -15,5 +15,7 @@
 - **Beihang University**, Beijing, China, *2016–2020*  
   B.Sc. in Detection, Guidance and Control Technology.
 
+<!-- 
 - **Peter the Great St. Petersburg Polytechnic University**, St. Petersburg, Russia, *2018*  
   Exchange Student. 
+-->
