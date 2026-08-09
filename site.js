@@ -14,7 +14,7 @@
         const list = el.querySelector('ol, ul');
         if (list) {
           list.classList.add('publication-list');
-          [...list.children].slice(limit).forEach(li => li.remove());
+          [...list.children].slice(0, -limit).forEach(li => li.remove());
         }
       }
     } catch (err) {
