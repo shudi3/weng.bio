@@ -6,7 +6,7 @@
 
 - **Technical University Berlin**, Berlin, Germany, *Oct. 2025–Jan. 2026*  
   Research Visit, Theoretical Foundations of Communications Technology (CommIT) Group.  
-  Advisor: [Prof. Giuseppe Caire](https://en.wikipedia.org/wiki/Giuseppe_Caire).
+  Host: [Prof. Giuseppe Caire](https://en.wikipedia.org/wiki/Giuseppe_Caire).
 
 - **Chalmers University of Technology**, Gothenburg, Sweden, *2020–2022*  
   M.Sc. in Information and Communication Technology, Communication System Group.  
