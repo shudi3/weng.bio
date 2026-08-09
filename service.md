@@ -1,11 +1,12 @@
 ## Service
 
 - **Reviewer**
+
 ***Journal***
-  IEEE Journal on Selected Areas in Communications (JSAC); IEEE Transactions on Communications (TCOM); 
+ JSAC, TCOM
   
 ***Conference***
-  Conference on Neural Information Processing Systems (NeurIPS); IEEE Global Communications Conference (GLOBECOM); IEEE International Conference on Communications (ICC); Information Theory Workshop (ITW).
+NeurIPS, GLOBECOM, ICC, ITW
 
 - **Organizing Committee, Conference & Workshops**, *2026*  
   [Sustainable Cyber-Physical Software-Defined System Slicing (SUCCESS) Workshop](https://ebjornson.com/success/).
