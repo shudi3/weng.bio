@@ -5,5 +5,7 @@
   Top 5 to join CampX accelerator by Volvo Group.  
   Swedish Mining Innovation Idea Competition Winners 2022.
 
+<!-- 
 - **China Airborne Missile Academy**, Henan, China — *Intern, Summer 2019*  
   Participated in and learned the missile manufacturing process.
+-->
