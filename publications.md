@@ -1,6 +1,8 @@
 ## Publications
 
-> Keep this list in **newest-first order**. The homepage automatically shows only the first 10 entries; this page displays the complete list.
+<!--Keep this list in **newest-first order**. The homepage automatically shows only the last 10 entries; this page displays the complete list.-->
+
+> * indicates corresponding author
 
 1. **Dropout-Resilient and Communication-Efficient Secure Aggregation in Semi-decentralized Federated Learning**  
    **Shudi Weng**, Xiang Zhang, Yizhou Zhao, Giuseppe Caire, Ming Xiao, Mikael Skoglund.  
