@@ -1,19 +1,19 @@
 ## Education
 
-- **KTH Royal Institute of Technology**, Stockholm, Sweden — *2023–Expected 2027*  
+- **KTH Royal Institute of Technology**, Stockholm, Sweden, *2023–2027*  
   Ph.D. in Electrical Engineering, Information Science and Engineering (ISE).  
-  Advisors: Prof. Mikael Skoglund and Prof. Ming Xiao.
+  Advisors: [Prof. Mikael Skoglund](https://people.kth.se/~skoglund/) and [Prof. Ming Xiao](https://www.kth.se/profile/mingx).
 
-- **Technical University Berlin**, Berlin, Germany — *Oct. 2025–Jan. 2026*  
+- **Technical University Berlin**, Berlin, Germany, *Oct. 2025–Jan. 2026*  
   Research Visit, Theoretical Foundations of Communications Technology (CommIT) Group.  
-  Advisor: Prof. Giuseppe Caire.
+  Advisor: [Prof. Giuseppe Caire](https://en.wikipedia.org/wiki/Giuseppe_Caire).
 
-- **Chalmers University of Technology**, Gothenburg, Sweden — *2020–2022*  
+- **Chalmers University of Technology**, Gothenburg, Sweden, *2020–2022*  
   M.Sc. in Information and Communication Technology, Communication System Group.  
-  Advisor: Prof. Henk Wymeersch.
+  Advisor: [Prof. Henk Wymeersch](https://sites.google.com/site/hwymeers/).
 
-- **Beihang University**, Beijing, China — *2016–2020*  
-  B.Sc. in Electrical Engineering. Minor: Control Technology, Optics.
+- **Beihang University**, Beijing, China, *2016–2020*  
+  B.Sc. in Detection, Guidance and Control Technology.
 
 - **Peter the Great St. Petersburg Polytechnic University**, St. Petersburg, Russia — *2018*  
-  Exchange Student. Courses: Optoelectronics, Russian.
+  Exchange Student. 
