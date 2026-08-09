@@ -1,8 +1,8 @@
 ## Awards and Grants
 
-- Travel Grant from General Travel Foundations, KTH, Sweden, **2026**
-- Travel Grant from EECS school's foundations, KTH, Sweden, **2025**
-- Travel Grant from Karl Engvers Foundation, KTH, Sweden, **2024**
+- Grant from General Travel Foundations (30000 SEK), KTH, Sweden, **2026**
+- Grant from EECS school's foundations (41000 SEK), KTH, Sweden, **2025**
+- Grant from Karl Engvers Foundation (30000 SEK), KTH, Sweden, **2024**
 - International Scholarships, Chalmers, Sweden, **2021–2022**
 - Best Bachelor Thesis, Beihang University, China, **2020**
 - First-Class Scholarship, Beihang University, China, **2019**
