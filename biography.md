@@ -1,5 +1,7 @@
 ## Biography
 
-I am a Ph.D. student in Electrical Engineering at [KTH Royal Institute of Technology](https://www.kth.se/), advised by Prof. Mikael Skoglund and Prof. Ming Xiao. My research focuses on federated learning, privacy, secure aggregation, information theory, and coding, with particular interest in communication-efficient and resilient distributed learning.
+I am a Ph.D. student in Electrical Engineering at [KTH Royal Institute of Technology](https://www.kth.se/).
+My research focuses on applying information theory and coding techniques to enable robust and secure distributed AI over wireless networks, spanning fundamental limits, mechanism design, and performance analysis.
 
-I received my M.Sc. in Information and Communication Technology from Chalmers University of Technology and my B.Sc. in Electrical Engineering from Beihang University. I was also a research visitor at Technical University Berlin.
+I am always happy to discuss related research topics and explore potential collaborations. Feel free to reach out at [shudiw@kth.se](shudiw@kth.se)
+
