@@ -1,10 +1,15 @@
 ## Service
 
-- **Reviewer, Journal & Conference** — *2023–Present*  
-  IEEE Journal on Selected Areas in Communications (JSAC); IEEE Transactions on Communications (TCOM); Conference on Neural Information Processing Systems (NeurIPS); IEEE Global Communications Conference (GLOBECOM); IEEE International Conference on Communications (ICC); Information Theory Workshop (ITW).
+- **Reviewer**
+### Journal
+  IEEE Journal on Selected Areas in Communications (JSAC); IEEE Transactions on Communications (TCOM); 
+  
+### Conference
+  Conference on Neural Information Processing Systems (NeurIPS); IEEE Global Communications Conference (GLOBECOM); IEEE International Conference on Communications (ICC); Information Theory Workshop (ITW).
 
-- **Organizing Committee, Conference & Workshops** — *2026*  
-  Sustainable Cyber-Physical Software-Defined System Slicing (SUCCESS) Workshop.
+- **Organizing Committee, Conference & Workshops**, *2026*  
+  [Sustainable Cyber-Physical Software-Defined System Slicing (SUCCESS) Workshop](https://ebjornson.com/success/).
 
-- **Co-Organizer, KTH** — *Mar. 2023–Sep. 2025*  
-  Division of Information Science and Engineering (ISE). Weekly research seminars in Communication Theory and Information Theory for approximately 40–70 participants.
+- **Organizer, KTH**, *2023–2025*  
+  Weekly research seminars in Communication Theory and Information Theory for approximately 40–70 participants from the Department of Information Science and Engineering (ISE). 
+
