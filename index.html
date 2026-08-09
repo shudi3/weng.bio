@@ -9,40 +9,44 @@
 </head>
 <body>
   <div id="layout-content" style="margin-top:25px">
-    <table class="profile-table">
-      <tbody>
-        <tr>
-          <td>
-            <div id="toptitle"><h1>Shudi Weng</h1></div>
-            <h3>Ph.D. Student</h3>
-            <p>
-              Information Science and Engineering (ISE)<br>
-              KTH Royal Institute of Technology<br>
-              Stockholm, Sweden<br><br>
-              Email: <a href="mailto:shudiw@kth.se">shudiw@kth.se</a><br><br>
-              <a href="https://scholar.google.com/" target="_blank" rel="noopener">[Google Scholar]</a>
-              <a href="https://linkedin.com/in/shudiw" target="_blank" rel="noopener">[LinkedIn]</a>
-              <a href="Shudi_Weng_CV.pdf">[CV]</a>
-            </p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="profile-header">
+      <div class="profile-info">
+        <div id="toptitle"><h1>Shudi Weng</h1></div>
+        <h3>Ph.D. Student</h3>
+        <p>
+          Information Science and Engineering (ISE)<br>
+          KTH Royal Institute of Technology<br>
+          Stockholm, Sweden<br><br>
+          Email: <a href="mailto:shudiw@kth.se">shudiw@kth.se</a><br><br>
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener">[Google Scholar]</a>
+          <a href="https://linkedin.com/in/shudiw" target="_blank" rel="noopener">[LinkedIn]</a>
+          <a href="Shudi_Weng_CV.pdf">[CV]</a>
+        </p>
+      </div>
+
+      <div class="profile-photo-wrap">
+        <img
+          class="profile-photo"
+          src="photo.jpg"
+          alt="Shudi Weng"
+          onerror="this.onerror=null;this.src='photo-placeholder.svg';"
+        >
+      </div>
+    </div>
 
     <section data-markdown="biography.md"></section>
-    <section data-markdown="research.md"></section>
+    <section data-markdown="education.md"></section>
 
     <section>
       <div id="publications-preview" data-markdown="publications.md" data-publication-limit="10"></div>
       <p class="all-publications-link"><a href="publications.html">[Full publication list]</a></p>
     </section>
 
-    <section data-markdown="education.md"></section>
-    <section data-markdown="experience.md"></section>
-    <section data-markdown="service.md"></section>
-    <section data-markdown="talks.md"></section>
     <section data-markdown="awards.md"></section>
-    <section data-markdown="skills.md"></section>
+    <section data-markdown="talks.md"></section>
+    <section data-markdown="service.md"></section>
+    <section data-markdown="experience.md"></section>
+    <section data-markdown="teaching.md"></section>
 
     <div id="footer">
       <div id="footer-text">© <span id="year"></span> Shudi Weng</div>

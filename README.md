@@ -1,58 +1,65 @@
 # Shudi Weng — Markdown-driven GitHub Pages site
 
-A flat, one-page academic website inspired by the provided `jqxue1999.github.io` site.
+This repository is intentionally flat: **no subfolders are required**.
 
-## Flat repository structure
+## Homepage section order
 
-There are **no subfolders**. Every file stays in the repository root:
+The homepage displays:
 
-- `index.html` — homepage shell
-- `publications.html` — full publication page
-- `site.js` — Markdown loader + homepage top-10 publication limit
-- `jemdoc.css` — styling
-- `Shudi_Weng_CV.pdf` — CV
+1. Biography
+2. Education
+3. Publications
+4. Awards & Grants
+5. Talks
+6. Service
+7. Work Experience
+8. Teaching
+
+Each section is maintained in its own root-level Markdown file.
+
+## Files to edit
+
 - `biography.md`
-- `research.md`
-- `publications.md`
 - `education.md`
-- `experience.md`
-- `service.md`
-- `talks.md`
+- `publications.md`
 - `awards.md`
-- `skills.md`
+- `talks.md`
+- `service.md`
+- `experience.md`
+- `teaching.md`
 
-## How to update the website
+## Photo
 
-Normally, edit only the relevant `.md` file and commit it to GitHub. You do not need to touch the HTML.
+Upload your portrait to the repository root and name it exactly:
 
-### Publications
+`photo.jpg`
 
-Edit `publications.md` and keep entries in newest-first order.
+It will automatically appear at the top-right of the homepage. Until that file
+exists, the site displays `photo-placeholder.svg`.
 
-- `index.html` automatically displays the first **10** list items.
-- `publications.html` automatically displays **all** entries.
-- The homepage includes a **Full publication list** link.
+For best results, use a portrait-oriented image. The page crops it to a
+160 × 200 px frame on desktop.
 
-When adding a paper, place it at the top of the numbered list. Markdown renumbering is fine as long as entries remain one top-level list item per publication.
+## Publications
 
-## Publishing
+Maintain only one source file: `publications.md`.
 
-Create (or use) a GitHub repository named:
+Put the newest publication first. The homepage automatically shows only the
+first 10 items and provides a `[Full publication list]` link.
 
-`YOUR-GITHUB-USERNAME.github.io`
+`publications.html` renders the complete `publications.md` file, so you never
+need to maintain two publication lists.
 
-Copy all files from this package directly into the repository root and push to `main`. GitHub Pages will serve the site automatically (or enable it under **Settings → Pages** if needed).
+## Deploy
 
-## Local preview
+In GitHub:
 
-Because the site uses JavaScript `fetch()` to load Markdown, opening `index.html` directly with a `file://` URL may be blocked by the browser. For local preview, serve the folder over HTTP, for example:
+**Settings → Pages → Build and deployment**
 
-```bash
-python -m http.server 8000
-```
+Use:
 
-Then open `http://localhost:8000`.
+- Source: `Deploy from a branch`
+- Branch: `main`
+- Folder: `/(root)`
 
-## Google Scholar
-
-The header currently uses the Google Scholar homepage because the exact profile URL should be verified. Replace it in `index.html` with your complete Scholar profile URL.
+Commit and push changes to `main`; GitHub Pages will redeploy automatically.

@@ -383,3 +383,55 @@ table.imgtable, table.imgtable td {
   body { padding-left: 22px; padding-right: 22px; margin-top: 10px; }
   #layout-content { padding-left: 0; padding-right: 0; }
 }
+
+
+/* Profile header and portrait */
+.profile-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.profile-info {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.profile-photo-wrap {
+  flex: 0 0 auto;
+  padding-top: 4px;
+}
+
+.profile-photo {
+  display: block;
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border: 1px solid #d0d0d0;
+  padding: 3px;
+  background: #ffffff;
+}
+
+@media (max-width: 650px) {
+  .profile-header {
+    gap: 20px;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-header {
+    flex-direction: column-reverse;
+  }
+
+  .profile-photo {
+    width: 140px;
+    height: 175px;
+  }
+}
