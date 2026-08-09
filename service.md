@@ -1,12 +1,8 @@
 ## Service
 
 - **Reviewer**
-
- - ***Journal***
- JSAC, TCOM
-  
- - ***Conference***
-NeurIPS, GLOBECOM, ICC, ITW
+  - ***Journal:*** JSAC, TCOM
+  - ***Conference:*** NeurIPS, GLOBECOM, ICC, ITW
 
 - **Organizing Committee, Conference & Workshops**, *2026*  
   [Sustainable Cyber-Physical Software-Defined System Slicing (SUCCESS) Workshop](https://ebjornson.com/success/).
