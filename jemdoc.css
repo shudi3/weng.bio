@@ -18,7 +18,6 @@ html {
 
 body { 
   font-family: Georgia, serif;
-  font-size: 0.60em;
   color: #000;
   background-color: #ffffff; 
   text-align:left; /* for IE */
@@ -444,7 +443,7 @@ table.imgtable, table.imgtable td {
     border-radius: 4px;
 
     color: white;
-    font-size: 0.65em;
+    font-size: 0.4em;
     font-weight: 600;
     line-height: 1.25;
 
