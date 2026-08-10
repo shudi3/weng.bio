@@ -434,17 +434,21 @@ table.imgtable, table.imgtable td {
 
 /* Publication topic tags */
 .pub-tag {
-  display: inline-block;
-  padding: 1px 8px 2px;
-  margin-right: 6px;
-  margin-bottom: 2px;
-  border-radius: 5px;
-  color: #fff;
-  font-size: 0.82em;
-  font-weight: 700;
-  line-height: 1.45;
-  vertical-align: 0.08em;
-  white-space: nowrap;
+    display: inline-block;
+
+    padding: 0px 5px;
+    margin-right: 5px;
+    margin-bottom: 1px;
+
+    border-radius: 4px;
+
+    color: white;
+    font-size: 0.65em;
+    font-weight: 600;
+    line-height: 1.25;
+
+    vertical-align: middle;
+    white-space: nowrap;
 }
 
 .tag-resilience {
