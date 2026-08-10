@@ -39,10 +39,6 @@ Maintenance rules:
 
 ### Conference
 
-1. **Coding-Enforced Resilient and Secure Aggregation for Hierarchical Federated Learning**  
-   **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
-   IEEE International Conference on Communications (ICC), 2026.
-
 1. **Perfectly Private Over-the-Air Computation**  
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
    IEEE Global Communications Conference (GLOBECOM), 2026.
@@ -50,6 +46,10 @@ Maintenance rules:
 1. **On Resilient and Efficient Linear Secure Aggregation in Hierarchical Federated Learning**  
    **Shudi Weng**\*, Xiang Zhang, Yizhou Zhao, Giuseppe Caire, Ming Xiao, Mikael Skoglund.  
    [arXiv preprint](https://arxiv.org/abs/2601.12853), 2026.
+
+1. **Coding-Enforced Resilient and Secure Aggregation for Hierarchical Federated Learning**  
+   **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
+   IEEE International Conference on Communications (ICC), 2026.
 
 1. **Cooperative Gradient Coding for Semi-Decentralized Federated Learning**  
    **Shudi Weng**\*, Chengxi Li, Ming Xiao, Mikael Skoglund.  
