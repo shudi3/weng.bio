@@ -1,63 +1,141 @@
 (function () {
-  marked.setOptions({ gfm: true, breaks: false });
+  marked.setOptions({
+    gfm: true,
+    breaks: false
+  });
 
   const publicationTags = {
-    Resilience: 'tag-resilience',
-    Privacy: 'tag-privacy',
-    Efficiency: 'tag-efficiency'
+    Resilience: "tag-resilience",
+    Privacy: "tag-privacy",
+    Efficiency: "tag-efficiency"
   };
 
-  function renderPublicationTags(container) {
-    container.querySelectorAll('ol > li').forEach((item) => {
-      // Supported Markdown:
-      // 1. {Resilience} {Privacy} **Paper title**
-      const html = item.innerHTML;
-      const tagPattern = /^\s*(?:\{(Resilience|Privacy|Efficiency)\}\s*)+/i;
-      const match = html.match(tagPattern);
-      if (!match) return;
+  function normalizeTagName(rawTag) {
+    return rawTag.charAt(0).toUpperCase() + rawTag.slice(1).toLowerCase();
+  }
 
-      const names = [...match[0].matchAll(/\{(Resilience|Privacy|Efficiency)\}/gi)]
-        .map((m) => m[1].charAt(0).toUpperCase() + m[1].slice(1).toLowerCase());
+  function replacePublicationTags(markdown) {
+    return markdown.replace(
+      /\{(Resilience|Privacy|Efficiency)\}/gi,
+      (_, rawTag) => {
+        const tag = normalizeTagName(rawTag);
+        const cssClass = publicationTags[tag];
 
-      const badges = names.map((name) =>
-        `<span class="pub-tag ${publicationTags[name]}">${name}</span>`
-      ).join('');
+        return `<span class="pub-tag ${cssClass}">${tag}</span>`;
+      }
+    );
+  }
 
-      item.innerHTML = html.replace(tagPattern, badges + ' ');
+  function limitPublicationLists(container, limit) {
+    if (!limit || limit <= 0) return;
+
+    const lists = container.querySelectorAll("ol");
+
+    lists.forEach((list) => {
+      const items = Array.from(list.children);
+
+      items.slice(limit).forEach((item) => {
+        item.remove();
+      });
     });
   }
 
-  async function loadMarkdown(el) {
-    const file = el.dataset.markdown;
+  async function loadMarkdown(element) {
+    const file = element.dataset.markdown;
+
+    if (!file) return;
+
     try {
-      const response = await fetch(file, { cache: 'no-store' });
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      const response = await fetch(file, {
+        cache: "no-store"
+      });
 
-      const markdown = await response.text();
-      el.innerHTML = marked.parse(markdown);
-
-      // Convert custom publication tags on both homepage and full-list page.
-      if (file === 'publications.md') {
-        renderPublicationTags(el);
+      if (!response.ok) {
+        throw new Error(
+          `Failed to load ${file}: ${response.status} ${response.statusText}`
+        );
       }
 
-      // Homepage only: keep the first (newest) N papers in EACH subsection.
-      const limit = Number(el.dataset.publicationLimit || 0);
-      if (limit > 0) {
-        const lists = el.querySelectorAll('ol');
-        lists.forEach((list) => {
-          list.classList.add('publication-list');
-          [...list.children].slice(limit).forEach((li) => li.remove());
-        });
+      let markdown = await response.text();
+
+      /*
+       * publications.md special handling
+       *
+       * Supported syntax:
+       *
+       * 1. {Privacy} **Paper title**
+       *
+       * 1. {Resilience} {Privacy} **Paper title**
+       *
+       * 1. {Resilience} {Privacy} {Efficiency} **Paper title**
+       *
+       * Tags are converted BEFORE marked.parse(), which prevents
+       * them from appearing as literal {Privacy}, {Resilience}, etc.
+       */
+      if (file === "publications.md") {
+        markdown = replacePublicationTags(markdown);
       }
-    } catch (err) {
-      el.innerHTML = `<p class="markdown-error">Could not load ${file}. This site must be served over HTTP (GitHub Pages works automatically).</p>`;
-      console.error(err);
+
+      element.innerHTML = marked.parse(markdown);
+
+      /*
+       * Homepage publication preview
+       *
+       * index.html should contain something like:
+       *
+       * <div
+       *   data-markdown="publications.md"
+       *   data-publication-limit="10">
+       * </div>
+       *
+       * Each ordered list is limited independently.
+       *
+       * Therefore:
+       * Journal    -> latest 10
+       * Conference -> latest 10
+       *
+       * publications.html should NOT contain
+       * data-publication-limit, so it displays all papers.
+       */
+      if (file === "publications.md") {
+        const limit = Number(
+          element.dataset.publicationLimit || 0
+        );
+
+        limitPublicationLists(element, limit);
+      }
+
+    } catch (error) {
+      console.error(error);
+
+      element.innerHTML = `
+        <p class="markdown-error">
+          Could not load ${file}.
+        </p>
+      `;
     }
   }
 
-  document.querySelectorAll('[data-markdown]').forEach(loadMarkdown);
+  function loadAllMarkdownSections() {
+    const markdownElements =
+      document.querySelectorAll("[data-markdown]");
 
-  const year = document.getElementById('year');
-  if (year) year.textContent = new Date().getFullYear();
+    markdownElements.forEach((element) => {
+      loadMarkdown(element);
+    });
+  }
+
+  function updateFooterYear() {
+    const yearElement = document.getElementById("year");
+
+    if (yearElement) {
+      yearElement.textContent =
+        new Date().getFullYear();
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    loadAllMarkdownSections();
+    updateFooterYear();
+  });
 })();
