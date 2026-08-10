@@ -50,3 +50,15 @@ python -m http.server 8000
 ```
 
 Then open `http://localhost:8000`.
+
+## Publications workflow
+
+Maintain all papers in the single root-level file `publications.md`.
+
+- Put journal papers under `### Journal`.
+- Put conference papers under `### Conference`.
+- Keep each subsection in newest-first order.
+- The homepage displays at most the first 10 entries from **each** subsection.
+- `publications.html` displays the complete Journal and Conference lists.
+
+When adding a new paper, add it to the top of the appropriate numbered list in `publications.md`. You do not need to edit `index.html` or `publications.html`.
