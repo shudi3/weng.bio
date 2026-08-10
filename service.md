@@ -1,8 +1,8 @@
 ## Service
 
 - **Reviewer**
-  ○ ***Journal:*** JSAC, TCOM
-  ○ ***Conference:*** NeurIPS, GLOBECOM, ICC, ITW
+  * ***Journal:*** JSAC, TCOM
+  * ***Conference:*** NeurIPS, GLOBECOM, ICC, ITW
 
 - **Organizing Committee**, *2026*  
 
