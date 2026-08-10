@@ -3,7 +3,7 @@
 <!--Keep this list in **newest-first order**. The homepage automatically shows only the last 10 entries; this page displays the complete list.-->
 
 (\* indicates the corresponding author)
-
+### Journal
 1. **Dropout-Resilient and Communication-Efficient Secure Aggregation in Semi-decentralized Federated Learning**  
    **Shudi Weng**, Xiang Zhang, Yizhou Zhao, Giuseppe Caire, Ming Xiao, Mikael Skoglund.  
    In preparation for International Symposium on Information Theory (ISIT), 2025.
@@ -19,6 +19,9 @@
 4. **Cooperative Gradient Coding**  
    **Shudi Weng**, Chao Ren, Ming Xiao, Mikael Skoglund.  
    Accepted by IEEE Transactions on Communications (TCOM), 2025.
+
+
+### Conference
 
 5. **Coded Cooperative Networks for Semi-Decentralized Federated Learning**  
    **Shudi Weng**, Ming Xiao, Chao Ren, Mikael Skoglund.  
