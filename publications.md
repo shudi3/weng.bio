@@ -37,11 +37,11 @@ The full publications page displays every paper in this file.
 ### Conference
 
 2. **Cooperative Gradient Coding for Semi-Decentralized Federated Learning**  
-   **Shudi Weng**, Chengxi Li, Ming Xiao, Mikael Skoglund.  
+   **Shudi Weng**\*, Chengxi Li, Ming Xiao, Mikael Skoglund.  
    IEEE Global Communications Conference (GLOBECOM), 2024.
 
 1. **On Resilient and Efficient Linear Secure Aggregation in Hierarchical Federated Learning**  
-   **Shudi Weng**, Xiang Zhang, Yizhou Zhao, Giuseppe Caire, Ming Xiao, Mikael Skoglund.  
+   **Shudi Weng**\*, Xiang Zhang, Yizhou Zhao, Giuseppe Caire, Ming Xiao, Mikael Skoglund.  
    [arXiv preprint](https://arxiv.org/abs/2601.12853), 2026.
 
 3. **Coding-Enforced Resilient and Secure Aggregation for Hierarchical Federated Learning**  
