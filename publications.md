@@ -32,7 +32,7 @@ The full publications page displays every paper in this file.
 
 2. **Channel-coded Over-the-Air Computation**  
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
-   [arXiv preprint](https://arxiv.org/abs/2605.02025), 2025.
+   [arXiv preprint](https://arxiv.org/abs/2605.02025), 2026.
 
 ### Conference
 
