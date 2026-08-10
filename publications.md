@@ -23,12 +23,15 @@ The full publications page displays every paper in this file.
    Accepted by IEEE Transactions on Communications (TCOM), 2025.
 
 4. **Coded Cooperative Networks for Semi-Decentralized Federated Learning**  
-   **Shudi Weng**, Ming Xiao, Chao Ren, Mikael Skoglund.  
+   **Shudi Weng**<sup>*</sup>, Ming Xiao, Chao Ren, Mikael Skoglund.  
    IEEE Wireless Communications Letters (WCL), 2024.
 
 5. **Wideband mmWave Massive MIMO Channel Estimation and Localization**  
-   **Shudi Weng**, Fan Jiang, Henk Wymeersch.  
+   **Shudi Weng**<sup>*</sup>, Fan Jiang, Henk Wymeersch.  
    IEEE Wireless Communications Letters (WCL), 2023.
+
+
+
 
 ### Conference
 
