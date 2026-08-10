@@ -18,6 +18,7 @@ html {
 
 body { 
   font-family: Georgia, serif;
+  font-size: 0.60em;
   color: #000;
   background-color: #ffffff; 
   text-align:left; /* for IE */
