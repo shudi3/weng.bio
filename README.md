@@ -62,3 +62,24 @@ Maintain all papers in the single root-level file `publications.md`.
 - `publications.html` displays the complete Journal and Conference lists.
 
 When adding a new paper, add it to the top of the appropriate numbered list in `publications.md`. You do not need to edit `index.html` or `publications.html`.
+
+## Publication numbering
+
+In `publications.md`, write every paper with `1.`:
+
+```markdown
+### Journal
+
+1. **Newest paper**
+   Authors...
+   Venue, year.
+
+1. **Next paper**
+   Authors...
+   Venue, year.
+```
+
+Markdown automatically renders the entries as 1, 2, 3, ... within each
+subsection. Keep papers newest-first. The homepage shows the latest 10
+Journal papers and latest 10 Conference papers independently; the full
+publication page shows all papers.
