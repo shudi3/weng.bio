@@ -18,11 +18,11 @@ Maintenance rules:
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
    [arXiv preprint](https://arxiv.org/abs/2605.02025), 2026.
 
-1. {Resilience} {Privacy} **Coding-Enforced Robust Secure Aggregation for Federated Learning Under Unreliable Communication**
+1. {Resilience}{Privacy} **Coding-Enforced Robust Secure Aggregation for Federated Learning Under Unreliable Communication**
    **Shudi Weng**\*, Chao Ren, Yizhou Zhao, Ming Xiao, Mikael Skoglund.  
    [arXiv preprint](https://arxiv.org/abs/2507.07565), 2025.
 
-1. {Resilience} {Efficiency} **Heterogeneity-Aware Client Sampling: A Unified Solution for Consistent Federated Learning**
+1. {Resilience}{Efficiency} **Heterogeneity-Aware Client Sampling: A Unified Solution for Consistent Federated Learning**
    **Shudi Weng**\*, Chao Ren, Ming Xiao, Mikael Skoglund.  
    [arXiv preprint](https://arxiv.org/abs/2505.11304), 2025.
 
@@ -44,11 +44,11 @@ Maintenance rules:
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
    IEEE Global Communications Conference (GLOBECOM), 2026.
 
-1. {Resilience} {Privacy} {Efficiency} **On Resilient and Efficient Linear Secure Aggregation in Hierarchical Federated Learning**
+1. {Resilience}{Privacy}{Efficiency} **On Resilient and Efficient Linear Secure Aggregation in Hierarchical Federated Learning**
    **Shudi Weng**\*, Xiang Zhang, Yizhou Zhao, Giuseppe Caire, Ming Xiao, Mikael Skoglund.  
    [arXiv preprint](https://arxiv.org/abs/2601.12853), 2026.
 
-1. {Resilience} {Privacy} **Coding-Enforced Resilient and Secure Aggregation for Hierarchical Federated Learning**
+1. {Resilience}{Privacy} **Coding-Enforced Resilient and Secure Aggregation for Hierarchical Federated Learning**
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
    IEEE International Conference on Communications (ICC), 2026.
 
