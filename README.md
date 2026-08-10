@@ -83,3 +83,24 @@ Markdown automatically renders the entries as 1, 2, 3, ... within each
 subsection. Keep papers newest-first. The homepage shows the latest 10
 Journal papers and latest 10 Conference papers independently; the full
 publication page shows all papers.
+
+## Publication topic tags
+
+Put tags immediately before a publication title in `publications.md`:
+
+```markdown
+1. {Resilience} {Privacy} **Paper title**
+   Authors...
+   Venue, year.
+
+1. {Efficiency} **Another paper**
+   Authors...
+   Venue, year.
+```
+
+Available tags:
+- `Resilience` — blue
+- `Privacy` — green
+- `Efficiency` — purple
+
+The badges appear on both the homepage preview and the full publication page.
