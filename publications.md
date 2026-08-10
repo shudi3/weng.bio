@@ -14,13 +14,15 @@ Maintenance rules:
 
 ### Journal
 
-1. {Resilience} **Channel-coded Over-the-Air Computation**
+1. [**Channel-coded Over-the-Air Computation**](https://arxiv.org/abs/2605.02025){Resilience}
+   
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
-   [arXiv preprint](https://arxiv.org/abs/2605.02025), 2026.
+   arXiv preprint, 2026.
 
-1. {Resilience}{Privacy} **Coding-Enforced Robust Secure Aggregation for Federated Learning Under Unreliable Communication**
+1. [**Coding-Enforced Robust Secure Aggregation for Federated Learning Under Unreliable Communication**](https://arxiv.org/abs/2507.07565) {Resilience}{Privacy} 
+   
    **Shudi Weng**\*, Chao Ren, Yizhou Zhao, Ming Xiao, Mikael Skoglund.  
-   [arXiv preprint](https://arxiv.org/abs/2507.07565), 2025.
+   arXiv preprint, 2025.
 
 1. {Resilience}{Efficiency} **Heterogeneity-Aware Client Sampling: A Unified Solution for Consistent Federated Learning**
    **Shudi Weng**\*, Chao Ren, Ming Xiao, Mikael Skoglund.  
