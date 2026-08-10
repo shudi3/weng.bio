@@ -1,7 +1,7 @@
 ## Education
 
 - **KTH Royal Institute of Technology**, Stockholm, Sweden, *2023–2027*  
-  Ph.D. in Electrical Engineering, Information Science and Engineering (ISE).  
+  Ph.D. in Electrical Engineering, Department of Information Science and Engineering (ISE).  
   Advisors: [Prof. Mikael Skoglund](https://people.kth.se/~skoglund/) (*IEEE Fellow*) and [Prof. Ming Xiao](https://www.kth.se/profile/mingx).
 
 - **Technical University Berlin**, Berlin, Germany, *Oct. 2025–Jan. 2026*  
