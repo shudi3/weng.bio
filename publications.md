@@ -64,4 +64,4 @@ Maintenance rules:
 1. {Resilience}[**Cooperative Gradient Coding for Semi-Decentralized Federated Learning**](https://arxiv.org/abs/2601.12853)
 
    **Shudi Weng**\*, Chengxi Li, Ming Xiao, Mikael Skoglund.  
-   IEEE Global Communications Conference (GLOBECOM), Communication Theory Symposium (CT), 2024.
+   IEEE GLOBECOM 2024 ·  * Communication Theory Symposium (CT)*.
