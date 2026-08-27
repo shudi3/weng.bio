@@ -1,6 +1,6 @@
 ## Supervision
 
-Proud to work with my students:
+Proud to work with the following students:
 
 - **Josef Afreim, Master's Thesis**, KTH, *2026*
   
