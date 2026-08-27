@@ -49,7 +49,7 @@ Maintenance rules:
 1. {Privacy}[**Perfectly Private Over-the-Air Computation**](https://arxiv.org/abs/2604.28080)
 
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
-   IEEE Global Communications Conference (GLOBECOM), Communication and Information System Security Symposium (CISS), 2026.
+   IEEE GLOBECOM 2026 · *Communication and Information System Security Symposium (CISS)*.
 
 1. {Resilience}{Privacy}{Efficiency}[**On Resilient and Efficient Linear Secure Aggregation in Hierarchical Federated Learning**](https://arxiv.org/abs/2601.12853)
 
@@ -59,9 +59,9 @@ Maintenance rules:
 1. {Resilience}{Privacy}[**Coding-Enforced Resilient and Secure Aggregation for Hierarchical Federated Learning**](https://ieeexplore.ieee.org/abstract/document/11587757)
    
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
-   IEEE International Conference on Communications (ICC), SAC-Machine Learning for Communications and Networking (SAC-MLCN), 2026.
+   IEEE ICC 2026 · *SAC-Machine Learning for Communications and Networking (SAC-MLCN)*.
 
 1. {Resilience}[**Cooperative Gradient Coding for Semi-Decentralized Federated Learning**](https://arxiv.org/abs/2601.12853)
 
    **Shudi Weng**\*, Chengxi Li, Ming Xiao, Mikael Skoglund.  
-   IEEE GLOBECOM 2024 ·  * Communication Theory Symposium (CT)*.
+   IEEE GLOBECOM 2024 · *Communication Theory Symposium (CT)*.
