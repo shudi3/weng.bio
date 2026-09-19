@@ -12,7 +12,7 @@
   
   Host: [Prof. Emil Björnson](https://ebjornson.com/research/)
 
-- **Invited Talk at Information Theory and Coding for Decentralized AI Seminar**, TU Berlin, Germany, *Oct. 2025* 
+- **Seminar on Information Theory and Coding for Decentralized AI**, TU Berlin, Germany, *Oct. 2025* 
 
   *Coding for Federated Learning*
   
