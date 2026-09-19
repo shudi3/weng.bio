@@ -1,7 +1,6 @@
 ## Talks
 
 - **Invited Talk at Decentralized AI Workshop**, Linköping University, Sweden, *Jun. 2026*. (Host: [Prof. Erik G. Larsson](https://liu.se/medarbetare/erila39))
-
   *Fundamental Limits of Efficient Hierarchical Secure Aggregation Under Unreliable Communication.*
   
 - **Invited Talk at [SUCCESS Workshop](https://kth.ungapped.io/Events/5e54761f-7b99-40f3-bdc0-d2e23287ce47)**, KTH, Sweden, *Mar. 2026*. (Host: [Prof. Emil Björnson](https://ebjornson.com/research/))  
