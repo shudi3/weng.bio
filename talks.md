@@ -7,12 +7,10 @@
   *Fundamental Limits of Resilient and Efficient Hierarchical Secure Aggregation.*
   
 
-- **Seminar on Information Theory and Coding for Decentralized AI**, TU Berlin, Germany, *Oct. 2025*  
+- **Seminar on Information Theory and Coding for Decentralized AI**, TU Berlin, Germany, *Oct. 2025*. (Host: [Prof. Giuseppe Caire](https://www.bifold.berlin/people/prof-giuseppe-caire-phd.html))  
   *Coding for Federated Learning.*
-  
-  Host: [Prof. Giuseppe Caire](https://www.bifold.berlin/people/prof-giuseppe-caire-phd.html)
 
-- **Invited Talk at LiU-KTH-Ericsson Decentralized AI Inspiration Workshop**, Sweden, *Sep. 2025*  
+- **Invited Talk at LiU-KTH-Ericsson Decentralized AI Inspiration Workshop**, Sweden, *Sep. 2025*. (Host: [Prof. Carlo Fischione](https://people.kth.se/~carlofi/))  
   *Secure and Resilient Coding for Federated Learning.*
   
-  Host: [Prof. Carlo Fischione](https://people.kth.se/~carlofi/)
+  
