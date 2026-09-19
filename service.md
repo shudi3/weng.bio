@@ -1,8 +1,8 @@
 ## Service
 
 - **Reviewer**
-  * ***Journal:*** JSAC, TCOM, WCL
-  * ***Conference:*** NeurIPS, GLOBECOM, ICC, ITW
+  * *Journal:* JSAC, TCOM, WCL
+  * *Conference:* NeurIPS, GLOBECOM, ICC, ITW
 
 - **Organizing Committee**   
 
