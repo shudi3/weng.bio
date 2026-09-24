@@ -500,7 +500,7 @@ table.imgtable, table.imgtable td {
 .news-scroll-window .news-scroll-list > li {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
-  line-height: 1.3;
+  line-height: 1;
 }
 
 .news-scroll-window .news-scroll-list > li:first-child {
