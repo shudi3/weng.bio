@@ -467,11 +467,8 @@ table.imgtable, table.imgtable td {
 
 .news-section { margin-top: 0.2em; }
 
-/* Scrollable News window: mouse wheel, trackpad, scrollbar, and keyboard. */
+/* Static News window: show at most six complete items, then scroll manually. */
 .news-scroll-window {
-  /* Six news rows are visible at once; additional items stay in this window. */
-  height: 12.9em;
-  max-height: 12.9em;
   overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
@@ -479,6 +476,12 @@ table.imgtable, table.imgtable td {
   padding: 0.25em 0.8em 0.25em 0;
   scrollbar-gutter: stable;
   overscroll-behavior: contain;
+}
+
+/* With six or fewer items there is no artificial empty space or scrollbar. */
+.news-scroll-window.news-six-or-fewer {
+  overflow-y: visible;
+  scrollbar-gutter: auto;
 }
 
 .news-scroll-window:focus {

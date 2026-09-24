@@ -125,14 +125,33 @@
     const list = container.querySelector("ul, ol");
     if (!list) return;
 
-    // Turn the News area into a fixed-height, user-controlled scroll window that shows about six news items at once.
-    // Visitors can use the mouse wheel/trackpad, drag the scrollbar, or use
-    // keyboard scrolling when the window has focus.
+    // News is static (no automatic rolling). The window grows naturally for
+    // 1–6 items, then stops at exactly the height needed for the first six.
+    // Any remaining items can be reached manually with the mouse wheel,
+    // trackpad, scrollbar, or keyboard.
     container.classList.add("news-scroll-window");
     container.setAttribute("tabindex", "0");
     container.setAttribute("role", "region");
-    container.setAttribute("aria-label", "News. Scroll to see more items.");
+    container.setAttribute("aria-label", "News. Scroll to see older items.");
     list.classList.add("news-scroll-list");
+
+    const items = Array.from(list.children);
+    if (items.length <= 6) {
+      container.classList.add("news-six-or-fewer");
+      return;
+    }
+
+    const sixthItem = items[5];
+    const containerTop = container.getBoundingClientRect().top;
+    const sixthBottom = sixthItem.getBoundingClientRect().bottom;
+    const sixthStyle = window.getComputedStyle(sixthItem);
+    const bottomMargin = parseFloat(sixthStyle.marginBottom) || 0;
+    const containerStyle = window.getComputedStyle(container);
+    const bottomPadding = parseFloat(containerStyle.paddingBottom) || 0;
+
+    container.style.maxHeight = `${Math.ceil(
+      sixthBottom - containerTop + bottomMargin + bottomPadding
+    )}px`;
   }
 
   function loadAllMarkdownSections() {
