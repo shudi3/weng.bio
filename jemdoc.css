@@ -463,3 +463,50 @@ table.imgtable, table.imgtable td {
   background: #7a4bd1;
 }
 
+
+
+/* Rolling news section */
+.news-section {
+  margin-top: 0.2em;
+}
+
+.news-roller-ready .news-roller-list {
+  position: relative;
+  min-height: 2.2em;
+  margin-top: 0.45em;
+  margin-bottom: 0.7em;
+  padding-left: 1.5em;
+  overflow: hidden;
+}
+
+.news-roller-ready .news-roller-item {
+  position: absolute;
+  top: 0;
+  left: 1.5em;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  transform: translateY(0.7em);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+  pointer-events: none;
+}
+
+.news-roller-ready .news-roller-item.is-active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.news-roller-static .news-roller-list {
+  position: static;
+  min-height: 0;
+  overflow: visible;
+}
+
+.news-roller-static .news-roller-item {
+  position: static;
+  opacity: 1;
+  transform: none;
+  margin-bottom: 0.35em;
+  pointer-events: auto;
+}

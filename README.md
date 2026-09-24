@@ -5,14 +5,15 @@ This site is intentionally flat: every file lives in the repository root and the
 ## Homepage section order
 
 1. Biography — `biography.md`
-2. Education — `education.md`
-3. Publications — `publications.md` (homepage shows the latest 10)
-4. Awards and Grants — `awards.md`
-5. Talks — `talks.md`
-6. Service — `service.md`
-7. Work Experience — `experience.md`
-8. Teaching — `teaching.md`
-9. Supervision — `supervision.md`
+2. News — `news.md` (items rotate automatically)
+3. Education — `education.md`
+4. Publications — `publications.md` (homepage shows the latest 10)
+5. Awards and Grants — `awards.md`
+6. Talks — `talks.md`
+7. Service — `service.md`
+8. Work Experience — `experience.md`
+9. Teaching — `teaching.md`
+10. Supervision — `supervision.md`
 
 ## Profile photo
 
@@ -104,3 +105,8 @@ Available tags:
 - `Efficiency` — purple
 
 The badges appear on both the homepage preview and the full publication page.
+
+
+## News workflow
+
+Maintain homepage updates in `news.md`, newest first. Each bullet is shown one at a time and rotates automatically every 4.5 seconds. Visitors who prefer reduced motion see the full static list instead.
