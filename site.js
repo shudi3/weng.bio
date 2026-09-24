@@ -125,34 +125,14 @@
     const list = container.querySelector("ul, ol");
     if (!list) return;
 
-    const items = Array.from(list.children);
-    if (items.length <= 1) return;
-
-    container.classList.add("news-roller-ready");
-    list.classList.add("news-roller-list");
-
-    let currentIndex = 0;
-    items.forEach((item, index) => {
-      item.classList.add("news-roller-item");
-      item.setAttribute("aria-hidden", index === 0 ? "false" : "true");
-    });
-    items[0].classList.add("is-active");
-
-    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      container.classList.add("news-roller-static");
-      items.forEach((item) => item.setAttribute("aria-hidden", "false"));
-      return;
-    }
-
-    window.setInterval(() => {
-      items[currentIndex].classList.remove("is-active");
-      items[currentIndex].setAttribute("aria-hidden", "true");
-
-      currentIndex = (currentIndex + 1) % items.length;
-
-      items[currentIndex].classList.add("is-active");
-      items[currentIndex].setAttribute("aria-hidden", "false");
-    }, 4500);
+    // Turn the News area into a fixed-height, user-controlled scroll window.
+    // Visitors can use the mouse wheel/trackpad, drag the scrollbar, or use
+    // keyboard scrolling when the window has focus.
+    container.classList.add("news-scroll-window");
+    container.setAttribute("tabindex", "0");
+    container.setAttribute("role", "region");
+    container.setAttribute("aria-label", "News. Scroll to see more items.");
+    list.classList.add("news-scroll-list");
   }
 
   function loadAllMarkdownSections() {
