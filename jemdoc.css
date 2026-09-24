@@ -469,7 +469,9 @@ table.imgtable, table.imgtable td {
 
 /* Scrollable News window: mouse wheel, trackpad, scrollbar, and keyboard. */
 .news-scroll-window {
-  max-height: 10.5em;
+  /* Six news rows are visible at once; additional items stay in this window. */
+  height: 12.9em;
+  max-height: 12.9em;
   overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
@@ -491,5 +493,6 @@ table.imgtable, table.imgtable td {
 
 .news-scroll-window .news-scroll-list > li {
   margin-bottom: 0.55em;
+  line-height: 1.6em;
 }
 

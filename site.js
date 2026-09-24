@@ -125,7 +125,7 @@
     const list = container.querySelector("ul, ol");
     if (!list) return;
 
-    // Turn the News area into a fixed-height, user-controlled scroll window.
+    // Turn the News area into a fixed-height, user-controlled scroll window that shows about six news items at once.
     // Visitors can use the mouse wheel/trackpad, drag the scrollbar, or use
     // keyboard scrolling when the window has focus.
     container.classList.add("news-scroll-window");
