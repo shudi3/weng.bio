@@ -1,5 +1,4 @@
 ## News
 
-- **Sep 2026** — Add your latest news item here.
-- **Aug 2026** — Add another update, award, paper, talk, or milestone here.
-- **Jul 2026** — Older news items will continue to rotate automatically.
+- 🔥 **Aug 2026** — Our paper has been accepted to IEEE GLOBECOM 2026! See you in Macau, China! 🇲🇴
+- 🎓 **Jun 2026** — Congratulations to my student Josef Afreim on his graduation!
