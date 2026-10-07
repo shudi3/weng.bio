@@ -17,7 +17,7 @@ Maintenance rules:
 1. {Resilience}[**Channel-coded Over-the-Air Computation**](https://arxiv.org/abs/2605.02025)
    
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
-   IEEE Wireless Communication Letters(WCL), 2026.
+   IEEE Wireless Communication Letters (WCL), 2026.
 
 1. {Resilience}{Privacy}[**Coding-Enforced Robust Secure Aggregation for Federated Learning Under Unreliable Communication**](https://arxiv.org/abs/2507.07565)
    
