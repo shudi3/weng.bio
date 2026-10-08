@@ -6,7 +6,6 @@
 
   ***Top 5*** startup selected for the Volvo Group CampX Accelerator.
 
-  [Swedish Mining Innovation Idea Competition Winners 2022](https://www.swedishmininginnovation.se/calls/idea-competition/). 
 
 <!-- 
 - **China Airborne Missile Academy**, Henan, China — *Intern, Summer 2019*  
