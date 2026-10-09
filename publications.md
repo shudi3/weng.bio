@@ -22,7 +22,7 @@ Maintenance rules:
 1. {Resilience}{Privacy}[**Coding-Enforced Robust Secure Aggregation for Federated Learning Under Unreliable Communication**](https://arxiv.org/abs/2507.07565)
    
    **Shudi Weng**\*, Chao Ren, Yizhou Zhao, Ming Xiao, Mikael Skoglund.  
-   arXiv preprint, 2025.
+   IEEE Journal on Selected Areas in Communications (JSAC), 2026.
 
 1. {Resilience}{Efficiency}[**Heterogeneity-Aware Client Sampling: A Unified Solution for Consistent Federated Learning**](https://arxiv.org/abs/2505.11304)
    
