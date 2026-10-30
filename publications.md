@@ -14,7 +14,7 @@ Maintenance rules:
 
 #### Journal
 
-1. {Resilience}[**Channel-coded Over-the-Air Computation**](https://arxiv.org/abs/2605.02025)
+1. {Resilience}[**Channel-Coded Over-the-Air Computation**](https://arxiv.org/abs/2605.02025)
    
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
    IEEE Wireless Communication Letters (WCL), 2026.
