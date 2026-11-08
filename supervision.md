@@ -2,6 +2,6 @@
 
 Proud to work with the following students:
 
-- **Josef Afreim, Master's Thesis**, KTH, *2026*
+- **Josef Afreim, Master's Thesis**, KTH, *2026* (Now with Saab, Linköping)
   
-  *Weather Radar Methods for Portable Military Radar System* (with Saab).
+  *Weather Radar Methods for Portable Military Radar System*.
