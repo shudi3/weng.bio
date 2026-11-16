@@ -1,7 +1,8 @@
 ## Awards and Grants
-- Scholarship from EECS school (29k SEK), KTH, Sweden, *2026*
+
+- Grant from EECS school (29k SEK), KTH, Sweden, *2026*
 - Grant from General Travel Foundations (30k SEK), KTH, Sweden, *2026*
-- Grant from EECS school's foundations (41k SEK), KTH, Sweden, *2025*
+- Grant from EECS school (41k SEK), KTH, Sweden, *2025*
 - Grant from Karl Engvers Foundation (30k SEK), KTH, Sweden, *2024*
 - [Swedish Mining Innovation Idea Competition Winners](https://www.swedishmininginnovation.se/calls/idea-competition/), Sweden, *2022* 
 - International Scholarships, Chalmers, Sweden, *2021–2022*
