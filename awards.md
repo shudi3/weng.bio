@@ -1,6 +1,7 @@
 ## Awards and Grants
 
-- Grant from Almfonden Foundation (29k SEK), KTH, Sweden, *2026*
+- Grant from Engvers Foundation (35k SEK), KTH, Sweden, *2027*
+- Grant from Almfonden Foundation (29k SEK), KTH, Sweden, *2027*
 - Grant from General Travel Foundations (30k SEK), KTH, Sweden, *2026*
 - Grant from Stiftelsen Ericson E.C. Fondation (41k SEK), KTH, Sweden, *2025*
 - Grant from Karl Engvers Foundation (30k SEK), KTH, Sweden, *2024*
