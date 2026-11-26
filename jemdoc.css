@@ -508,3 +508,25 @@ table.imgtable, table.imgtable td {
 .news-scroll-window .news-scroll-list > li:last-child {
   margin-bottom: 0;
 }
+
+[data-scroll-items] ul {
+  margin-block: 0.2em;
+}
+
+[data-scroll-items] ul > li {
+  margin-top: 0;
+  line-height: 1.25;
+}
+
+[data-scroll-items] ul > li + li {
+  margin-top: 0.35em;
+}
+
+[data-scroll-items] ul > li > p {
+  margin-block: 0;
+  line-height: inherit;
+}
+
+[data-scroll-items] ul > li > p + p {
+  margin-top: 0.15em;
+}
