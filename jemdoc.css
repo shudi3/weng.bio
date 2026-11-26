@@ -467,8 +467,10 @@ table.imgtable, table.imgtable td {
 
 .news-section { margin-top: 0.2em; }
 
-/* Scrollable lists support pointer, touch, and keyboard input. */
-.list-scroll-window {
+/* Scrollable News window: mouse wheel, trackpad, scrollbar, and keyboard. */
+.news-scroll-window {
+  /* Height is natural for 1–6 items. JavaScript caps it after item 6
+     only when additional news exists. */
   overflow-y: auto;
   overflow-x: hidden;
   box-sizing: border-box;
@@ -478,7 +480,7 @@ table.imgtable, table.imgtable td {
   overscroll-behavior: contain;
 }
 
-.list-scroll-window:focus {
+.news-scroll-window:focus {
   outline: 2px solid currentColor;
   outline-offset: 3px;
 }
