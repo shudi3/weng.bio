@@ -97,8 +97,8 @@
        * publications.html should NOT contain
        * data-publication-limit, so it displays all papers.
        */
-      if (element.hasAttribute("data-news-roller")) {
-        initializeNewsRoller(element);
+      if (element.hasAttribute("data-scroll-items")) {
+        initializeScrollableList(element);
       }
 
       if (file === "publications.md") {
@@ -121,32 +121,36 @@
   }
 
 
-  function initializeNewsRoller(container) {
-    const list = container.querySelector("ul, ol");
-    if (!list) return;
+  function initializeScrollableList(section) {
+    const list = section.querySelector("ul, ol");
+    const visibleItems = Number(section.dataset.scrollItems);
+    if (!list || list.children.length <= visibleItems) return;
 
-    // Turn the News area into a fixed-height, user-controlled scroll window that shows about six news items at once.
-    // Visitors can use the mouse wheel/trackpad, drag the scrollbar, or use
-    // keyboard scrolling when the window has focus.
-    container.classList.add("news-scroll-window");
-    container.setAttribute("tabindex", "0");
-    container.setAttribute("role", "region");
-    container.setAttribute("aria-label", "News. Scroll to see more items.");
-    list.classList.add("news-scroll-list");
+    const scrollWindow = document.createElement("div");
+    scrollWindow.classList.add("list-scroll-window");
+    scrollWindow.tabIndex = 0;
+    scrollWindow.setAttribute("role", "region");
+    scrollWindow.setAttribute("aria-label", section.querySelector("h2").textContent);
 
-    // Keep the window naturally sized when there are fewer than six items.
-    // With more than six items, cap the visible area exactly after item 6
-    // and let the reader scroll manually through the remainder.
-    const items = Array.from(list.children);
-    if (items.length > 6) {
-      const sixthItem = items[5];
-      const containerTop = container.getBoundingClientRect().top;
-      const sixthBottom = sixthItem.getBoundingClientRect().bottom;
-      const paddingBottom = parseFloat(getComputedStyle(container).paddingBottom) || 0;
-      container.style.maxHeight = `${Math.ceil(sixthBottom - containerTop + paddingBottom)}px`;
-    } else {
-      container.style.maxHeight = "none";
+    if (section.id === "news-roller") {
+      scrollWindow.classList.add("news-scroll-window");
+      list.classList.add("news-scroll-list");
     }
+
+    list.before(scrollWindow);
+    scrollWindow.append(list);
+
+    const lastVisibleItem = list.children[visibleItems - 1];
+    const updateHeight = () => {
+      const windowTop = scrollWindow.getBoundingClientRect().top;
+      const itemBottom = lastVisibleItem.getBoundingClientRect().bottom;
+      const bottomPadding = parseFloat(getComputedStyle(scrollWindow).paddingBottom);
+      const height = itemBottom - windowTop + scrollWindow.scrollTop + bottomPadding;
+      scrollWindow.style.maxHeight = `${Math.ceil(height)}px`;
+    };
+
+    updateHeight();
+    new ResizeObserver(updateHeight).observe(list);
   }
 
   function loadAllMarkdownSections() {
