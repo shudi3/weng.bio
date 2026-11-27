@@ -1,6 +1,6 @@
 ## Education
 
-### Degrees
+### Degrees:
 
 - **KTH Royal Institute of Technology**, Stockholm, Sweden, *2023–2027*  
   Ph.D. in Electrical Engineering, Department of Information Science and Engineering (ISE).  
@@ -18,7 +18,15 @@
   Exchange Student. 
 -->
 
-### Research Visit
+### Research Visit:
+
+- **mperial College London**, London, United Kingdom, *Jun. 2025–Nov. 2026*  
+  Research Visit, Information Processing and Communications Lab.  
+  Host: [Prof. Deniz Gündüz](https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/) (*IEEE Fellow*).
+
+- **TChalmers University of Technolog**, Gothenburg, Sweden, *Feb. 2027–Mar. 2027*  
+  Research Visit, Communication System Group.  
+  Host: [Prof. Henk Wymeersch](https://sites.google.com/site/hwymeers/) (*IEEE Fellow*).
 
 - **Technical University Berlin**, Berlin, Germany, *Oct. 2025–Jan. 2026*  
   Research Visit, Theoretical Foundations of Communications Technology (CommIT) Group.  
