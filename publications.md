@@ -27,7 +27,7 @@ Maintenance rules:
 1. {Resilience}{Efficiency}[**Heterogeneity-Aware Client Sampling: A Unified Solution for Consistent Federated Learning**](https://arxiv.org/abs/2505.11304)
    
    **Shudi Weng**\*, Chao Ren, Ming Xiao, Mikael Skoglund.  
-   arXiv preprint, 2025.
+   IEEE Transactions on Signal Processing, minor revision, 2026.
 
 1. {Resilience}[**Cooperative Gradient Coding**](https://ieeexplore-ieee-org.focus.lib.kth.se/abstract/document/11175173)
    
