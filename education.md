@@ -18,7 +18,7 @@
   Exchange Student. 
 -->
 
-### Research Visit:
+### Research Visits:
 
 - **Imperial College London**, London, United Kingdom, *Jun. 2027–Nov. 2027*  
   Research Visit, Information Processing and Communications Lab.  
