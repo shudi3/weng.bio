@@ -46,7 +46,7 @@ Maintenance rules:
 
 #### Conference
 
-1. {Privacy}[**Perfectly Private Over-the-Air Computation**](https://arxiv.org/abs/2604.28080)
+1. {Privacy}{Efficiency}[**Perfectly Private Over-the-Air Computation**](https://arxiv.org/abs/2604.28080)
 
    **Shudi Weng**\*, Ming Xiao, Mikael Skoglund.  
    IEEE GLOBECOM, *Communication and Information System Security Symposium (CISS)*, 2026.
