@@ -20,7 +20,7 @@
 
 ### Research Visit:
 
-- **Imperial College London**, London, United Kingdom, *Jun. 2025–Nov. 2026*  
+- **Imperial College London**, London, United Kingdom, *Jun. 2027–Nov. 2027*  
   Research Visit, Information Processing and Communications Lab.  
   Host: [Prof. Deniz Gündüz](https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/) (*IEEE Fellow*).
 
