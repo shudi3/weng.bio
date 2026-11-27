@@ -20,11 +20,11 @@
 
 ### Research Visits:
 
-- **Imperial College London**, London, United Kingdom, *Jun. 2027–Nov. 2027*  
+- **Imperial College London** (upcoming), London, United Kingdom, *Jun. 2027–Nov. 2027*  
   Research Visit, Information Processing and Communications Lab.  
   Host: [Prof. Deniz Gündüz](https://www.imperial.ac.uk/information-processing-and-communications-lab/people/deniz/) (*IEEE Fellow*).
 
-- **Chalmers University of Technology**, Gothenburg, Sweden, *Feb. 2027–Mar. 2027*  
+- **Chalmers University of Technology** (upcoming), Gothenburg, Sweden, *Feb. 2027–Mar. 2027*  
   Research Visit, Communication System Group.  
   Host: [Prof. Henk Wymeersch](https://sites.google.com/site/hwymeers/) (*IEEE Fellow*).
 
