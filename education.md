@@ -1,6 +1,6 @@
 ## Education
 
-### Degrees:
+#### Degrees:
 
 - **KTH Royal Institute of Technology**, Stockholm, Sweden, *2023–2027*  
   Ph.D. in Electrical Engineering, Department of Information Science and Engineering (ISE).  
@@ -18,7 +18,7 @@
   Exchange Student. 
 -->
 
-### Research Visits:
+#### Research Visits:
 
 - **Imperial College London** (upcoming), London, United Kingdom, *Jun. 2027–Nov. 2027*  
   Research Visit, Information Processing and Communications Lab.  
